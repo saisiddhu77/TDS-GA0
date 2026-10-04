@@ -1,0 +1,12 @@
+name: TDS GA0 Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f3000271@ds.study.iitm.ac.in
+        run: echo "Hello, TDS GA0!"
